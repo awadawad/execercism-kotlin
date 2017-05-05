@@ -13,7 +13,6 @@ class ETLTest {
         assertEquals(expected, ETL.transform(old))
     }
 
-    @Ignore
     @Test
     fun transformMoreValues() {
         val old = mapOf(1 to listOf('A', 'E', 'I'))
@@ -31,7 +30,6 @@ class ETLTest {
         assertEquals(expected, ETL.transform(old))
     }
 
-    @Ignore
     @Test
     fun fullDataset() {
         val old = mapOf(
