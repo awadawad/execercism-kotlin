@@ -1,1 +1,1 @@
-# PO CCD plugin
+# Exercism Kotlin exercises
