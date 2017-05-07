@@ -21,7 +21,6 @@ class ETLTest {
         assertEquals(expected, ETL.transform(old))
     }
 
-    @Ignore
     @Test
     fun moreKeys() {
         val old = mapOf(1 to listOf('A', 'E', 'I'), 2 to listOf('D', 'G'))
